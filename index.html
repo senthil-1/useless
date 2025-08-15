@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FridgeMood.AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .emoji {
+            font-size: 4em;
+            margin: 20px 0;
+        }
+        .button {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+        .button:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+        }
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍽️ FridgeMood.AI</h1>
+        <div class="emoji">🤖❄️</div>
+        <p>Discover the secret emotional lives of your fridge contents!</p>
+        
+        <div class="status">
+            <h3>✅ Deployment Successful!</h3>
+            <p>Your FridgeMood.AI is now live on Vercel</p>
+        </div>
+        
+        <a href="index12.html" class="button">🚀 Launch Full App</a>
+        <a href="/api/upload" class="button">🔧 Test API</a>
+        
+        <div style="margin-top: 40px;">
+            <h3>🎯 Features:</h3>
+            <ul style="text-align: left; display: inline-block;">
+                <li>🤖 AI Object Detection</li>
+                <li>🎭 Random Mood Generation</li>
+                <li>🚫 No Duplicate Items</li>
+                <li>📱 Mobile Friendly</li>
+                <li>⚡ No Page Reloads</li>
+            </ul>
+        </div>
+        
+        <div style="margin-top: 30px; font-size: 0.9em; opacity: 0.8;">
+            <p>Made with ❤️ and a lot of ☕</p>
+            <p><a href="https://github.com/senthil-1/useless" style="color: #fff;">View on GitHub</a></p>
+        </div>
+    </div>
+
+    <script>
+        // Test if API is working
+        fetch('/api/upload', {
+            method: 'GET'
+        })
+        .then(response => {
+            console.log('API Status:', response.status);
+        })
+        .catch(error => {
+            console.log('API Error:', error);
+        });
+    </script>
+</body>
+</html>
