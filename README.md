@@ -46,6 +46,17 @@ fridgemood-ai/
 └── README.md             # This file
 ```
 
+
+## ScreenShot
+
+
+<img width="1280" height="800" alt="m" src="https://github.com/user-attachments/assets/1b90f0ab-5297-457c-9710-f7152b7bf732" />
+
+<img width="1280" height="800" alt="cc" src="https://github.com/user-attachments/assets/ae995715-fbe5-4e95-8a8f-6664e23b907c" />
+
+<img width="1280" height="800" alt="f" src="https://github.com/user-attachments/assets/b0601bfb-5ecd-4651-a9ea-2677ba8900b5" />
+<img width="955" height="608" alt="Screenshot 2025-08-15 203619" src="https://github.com/user-attachments/assets/2d6a5cd2-4d79-4e27-bb61-108ed93438bc" />
+
 ## 🏃‍♂️ Quick Start
 
 ### Local Development
@@ -131,11 +142,8 @@ Edit the `all_moods` array in the mood generation function to add new personalit
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Frontend : parvathy S
+Backend  : senthil R
 
 ## 📄 License
 
