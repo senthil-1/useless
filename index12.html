@@ -964,7 +964,7 @@
             const formData = new FormData();
             formData.append('image', file);
 
-            fetch('/api/upload', {
+            fetch('/.netlify/functions/upload', {
                 method: 'POST',
                 body: formData
             })
