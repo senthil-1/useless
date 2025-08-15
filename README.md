@@ -23,9 +23,6 @@ milk – "Becoming a therapist for traumatized leftovers"
 Final Mood: Your fridge is having a midlife crisis
 ```
 
-## 🚀 Live Demo
-
-**[Try FridgeMood.AI Live!](https://your-app-url.vercel.app)** *(Deploy to get your URL)*
 
 ## 🛠️ Tech Stack
 
@@ -151,12 +148,6 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Vercel** for hosting
 - **OpenAI** for inspiration on AI applications
 
-## 📞 Support
-
-If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/yourusername/your-repo-name/issues) page
-2. Create a new issue if needed
-3. Review the deployment guide in `DEPLOYMENT_GUIDE.md`
 
 ---
 
