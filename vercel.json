@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "api/app.py",
@@ -15,10 +14,5 @@
       "src": "/(.*)",
       "dest": "index12.html"
     }
-  ],
-  "functions": {
-    "api/app.py": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
