@@ -143,6 +143,7 @@ Edit the `all_moods` array in the mood generation function to add new personalit
 ## 🤝 Contributing
 
 Frontend : parvathy S
+
 Backend  : senthil R
 
 ## 📄 License
